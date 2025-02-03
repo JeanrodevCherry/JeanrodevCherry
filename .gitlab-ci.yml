@@ -15,4 +15,5 @@ build:
       - dist/hello_world.exe
   only:
     - main
+    - master
 
