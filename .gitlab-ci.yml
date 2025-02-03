@@ -1,4 +1,5 @@
-image: python:3.9
+# image: python:3.9
+image: docker:latest
 
 stages:
   - build
@@ -8,11 +9,13 @@ before_script:
 
 build:
   stage: build
+  image: mcr.microsoft.com/windows/servercore:ltsc2022
   script:
     - pyinstaller --onefile hello_world.py
   artifacts:
     paths:
-      - dist/hello_world.exe
+      - /builds/cherrydev/temp_docker/dist/hello_world.exe
+      # - dist/hello_world.exe
   only:
     - main
     - master
