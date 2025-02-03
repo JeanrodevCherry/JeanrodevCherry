@@ -1,0 +1,18 @@
+image: python:3.9
+
+stages:
+  - build
+
+before_script:
+  - pip install pyinstaller
+
+build:
+  stage: build
+  script:
+    - pyinstaller --onefile hello_world.py
+  artifacts:
+    paths:
+      - dist/hello_world.exe
+  only:
+    - main
+
