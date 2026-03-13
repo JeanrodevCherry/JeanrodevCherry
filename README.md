@@ -4,6 +4,8 @@
 - 💞️ I’m looking to collaborate on Advanced machine learning and image processes pipelines
 - 📫 How to reach me through my professionnal email: jean-robin.peiteado@cherrybiotech.com
 - ⚡ Fun fact: I'm a junior engineer and developper in charge of an entire software
+  - I graduated in Mechanical engineering and Interactive design but
+  - I changed path to do software engineering
 
 <!---
 JeanrodevCherry/JeanrodevCherry is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
